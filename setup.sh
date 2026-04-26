@@ -14,7 +14,7 @@ set -Eeuo pipefail
 # 你需要修改的默认配置
 # -----------------------------
 
-APP_NAME="${APP_NAME:-my-app}"
+APP_NAME="${APP_NAME:-vultr-deploy}"
 APP_DIR="${APP_DIR:-/opt/${APP_NAME}}"
 
 PROJECT_REPO="${PROJECT_REPO:-https://github.com/你的用户名/你的仓库.git}"
