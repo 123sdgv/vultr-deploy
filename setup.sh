@@ -17,7 +17,7 @@ set -Eeuo pipefail
 APP_NAME="${APP_NAME:-vultr-deploy}"
 APP_DIR="${APP_DIR:-/opt/${APP_NAME}}"
 
-PROJECT_REPO="${PROJECT_REPO:-https://github.com/你的用户名/你的仓库.git}"
+PROJECT_REPO="${PROJECT_REPO:-https://github.com/123sdgv/vultr-deploy.git}"
 PROJECT_BRANCH="${PROJECT_BRANCH:-main}"
 
 # 如果你有私密 .env 文件地址，可以以后再配置
