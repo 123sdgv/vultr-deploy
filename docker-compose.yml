@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: vultr-test-web
+    restart: unless-stopped
+    ports:
+      - "3000:80"
